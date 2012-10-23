@@ -133,7 +133,7 @@ $(function(){
         var face = $(this).data('face');
         face = (face == "front") ? "back" : "front";
         $(this).data("face", face);
-        var content = get_content($(this).attr('id'), face);
+        var content = get_content("cell" + $(this).data('value'), face);
         var $self = $(this);
         $(this).flippy({
             direction: "LEFT",
