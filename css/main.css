@@ -95,7 +95,7 @@ textarea {
 body { font-family: 'Gentium Book Basic', serif; }
 
 .cell { height: 140px;
-    background: #C8AE92;
+    background: #C7B6A3;
     color: #221201;
     text-align: center;
     margin-bottom: 20px;
@@ -126,7 +126,7 @@ button.ui-widget { font-size: 100%; font-family: 'Gentium Book Basic', serif;}
 
 h1 { margin-bottom: 0; }
 
-a { color: #18353E;}
+a { color: #24363D;}
 
 .status { font-size: 150%;
     line-height: 140px; }
