@@ -26,11 +26,12 @@
 
         <!-- Add your site or application content here -->
         <div class="container_12">
-            <h1 class="grid_11 prefix_1">Newspapers magic square</h1>
+            <h1 class="grid_11 prefix_1">DigitalNZ magic square</h1>
             <div class="grid_11 prefix_1">
                 <p class="controls">
                     Keywords: <input id="keywords" type="text">
                     Start year: <select id="start_year"><option value="0">random</option></select>
+                    Type: <select id="item_type"><option value="all">all</option><option value="images">images</option><option value="newspapers">newspapers</option></select>
                     <button id="go">Make the magic</button>
                 </p>
             </div>
@@ -77,7 +78,7 @@
             <div data-value="25" data-face="front" id="cell23" class="grid_2 cell"></div>
             <div data-value="2" data-face="front" id="cell24" class="grid_2 cell"></div>
             <div data-value="9" data-face="front" id="cell25" class="grid_2 cell"></div>
-            <div id="magic_total" data-value="0" class="grid_1">Total: 0</div>
+            <div id="magic_total" data-value="0" class="grid_1">0</div>
             <div class="clear"></div>
         </div>
         <div id="cell-contents">
@@ -91,6 +92,7 @@
         <script src="js/vendor/jquery.flippy.min.js"></script>
         <script src="js/vendor/jquery.dateFormat-1.0.js" type="text/javascript"></script>
         <script src="js/vendor/showLoading/js/jquery.showLoading.min.js"></script>
+        <script src="js/vendor/iso8601.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
